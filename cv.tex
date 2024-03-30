@@ -18,7 +18,7 @@
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, a4paper]{awesome-cv}
+\documentclass[11pt, letterpaper]{awesome-cv}
 \usepackage{hyperref}
 \definecolor{mypink1}{rgb}{0,0.2,0.6}
 %\hypersetup{
@@ -70,8 +70,8 @@
 
 \email{ginoocch@mit.edu}
 % \homepage{www.hongtaoh.com}
-\github{ginoocch}
-\linkedin{ginoocch}
+%\github{ginoocch}
+%\linkedin{ginoocch}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -96,7 +96,7 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {\today}
+  {}
   {Gino Occhialini~~~·~~~Curriculum Vitae}
   {\thepage}
 
@@ -107,10 +107,12 @@
 %-------------------------------------------------------------------------------
 \input{cv/education.tex}
 \input{cv/appointment.tex}
-\input{cv/honors.tex}
-\input{cv/skills.tex}
 \input{cv/teaching}
+\input{cv/skills.tex}
+\pagebreak
+\input{cv/honors.tex}
 \input{cv/publications.tex}
+
 %\input{cv/committees.tex}
 
 
